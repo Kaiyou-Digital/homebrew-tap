@@ -4,9 +4,9 @@ class Marka < Formula
   license "MIT"
 
   # Update these on each release
-  version "0.1.1"
+  version "0.2.0"
   url "https://github.com/muchbetteradventures/marka/releases/download/v#{version}/marka-#{version}.tar.gz"
-  sha256 "abb6b4d934508b32b61e8560e46a77328d9c4eb4844ccbf047f3950cf2e08882"
+  sha256 "86380039bcd8d0ab051693b0d241bd66e0bc8b7baf42fc976eea15c91d215de4"
 
   depends_on :macos
   depends_on macos: :sonoma
