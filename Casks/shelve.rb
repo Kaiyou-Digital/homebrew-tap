@@ -1,6 +1,6 @@
 cask "shelve" do
-  version "0.1.0"
-  sha256 "ff616f05dc9d169c8afdfe2f9562db3d2a1318539e57b2ae0b51489ff78aabbc"
+  version "0.1.1"
+  sha256 "401dae52a53ad443ccf3bbfbc95ef6ffa8d4fbcc37f914d738481a5f38fda03f"
 
   url "https://github.com/muchbetteradventures/shelve/releases/download/v#{version}/shelve-#{version}.dmg"
   name "Shelve"
