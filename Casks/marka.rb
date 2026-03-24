@@ -1,6 +1,6 @@
 cask "marka" do
-  version "0.7.2"
-  sha256 "f00c5000149e9a455a120410ae012737e43f9b3dae62589541d470b58d20ebf4"
+  version "0.7.3"
+  sha256 "2ea9f72721e6a440b7e59ca68426c6cdd77cb9e57072aead9ba3386c6d91a7ba"
 
   url "https://github.com/muchbetteradventures/marka/releases/download/v#{version}/marka-#{version}.dmg"
   name "Marka"
