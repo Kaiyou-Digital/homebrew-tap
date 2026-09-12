@@ -5,7 +5,7 @@ cask "remarka" do
   version "0.10.0"
   sha256 "a606148929aac5cb8381c9d00f0ced19b630a80022c200bc778206eceb5d33a0"
 
-  url "https://github.com/Kaiyou-Digital/remarka/releases/download/v#{version}/remarka-#{version}.dmg"
+  url "https://releases.kaiyou.digital/remarka-#{version}.dmg"
   name "Remarka"
   desc "Lightweight terminal-launched Markdown viewer for macOS"
   homepage "https://github.com/Kaiyou-Digital/remarka"
