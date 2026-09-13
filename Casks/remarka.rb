@@ -2,8 +2,8 @@
 # release. build-release.sh updates them on the first Kaiyou-Digital/remarka
 # release; until then `brew install remarka` will not resolve.
 cask "remarka" do
-  version "0.1.0"
-  sha256 "9e12b33b3ba8f845e5f909f08018849949ea89f935b3bd7340da8b5e911a8127"
+  version "0.2.1"
+  sha256 "d77f981d274a79b877db8877459d4ca2e02f91f31868f46077c426c03290a85c"
 
   url "https://releases.kaiyou.digital/remarka-#{version}.dmg"
   name "Remarka"
