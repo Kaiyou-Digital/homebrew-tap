@@ -1,6 +1,3 @@
-# NOTE: version/sha256 still point at the final muchbetteradventures/marka
-# release. build-release.sh updates them on the first Kaiyou-Digital/remarka
-# release; until then `brew install remarka` will not resolve.
 cask "remarka" do
   version "0.2.3"
   sha256 "8bc707e2e109ecdb99cc6c873887e5ba90d95a6a444e4e86f42c57d0e5c0cbbf"
