@@ -1,15 +1,15 @@
 class Portwatch < Formula
-  desc "Local TUI dashboard for listening services, built with Ink"
+  desc "Local TUI dashboard for listening services"
   homepage "https://github.com/Kaiyou-Digital/portwatch"
-  url "https://github.com/Kaiyou-Digital/portwatch/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "a2d9636f977bc12a116b65bf979b0bad70104781b962b8d32a4a76525385d10f"
+  url "https://github.com/Kaiyou-Digital/portwatch/releases/download/v0.2.0/portwatch-0.2.0-arm64.tar.gz"
+  sha256 "6e8786abdaaa6241907b5c01ac764f19a19792cfcf4e8fc4489a5122c7f4f237"
   license "MIT"
 
-  depends_on "node"
+  depends_on arch: :arm64
+  depends_on macos: :ventura
 
   def install
-    system "npm", "install", *std_npm_args
-    bin.install_symlink libexec.glob("bin/*")
+    bin.install "portwatch"
   end
 
   def caveats
