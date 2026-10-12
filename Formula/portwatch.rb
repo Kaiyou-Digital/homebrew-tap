@@ -18,8 +18,8 @@ class Portwatch < Formula
       authentication and can send SIGTERM to any of your local
       processes by design — see the README before use.
 
-      macOS only: it parses `lsof -F` and `ps -o comm=` output shapes
-      as-is, not abstracted for other platforms.
+      Apple silicon, macOS 13 or later only: it reads listening sockets
+      through libproc, which is macOS-specific.
     EOS
   end
 
