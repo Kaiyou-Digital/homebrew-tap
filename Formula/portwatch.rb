@@ -1,8 +1,8 @@
 class Portwatch < Formula
   desc "Local TUI dashboard for listening services"
   homepage "https://github.com/Kaiyou-Digital/portwatch"
-  url "https://github.com/Kaiyou-Digital/portwatch/releases/download/v0.2.1/portwatch-0.2.1-arm64.tar.gz"
-  sha256 "141f8dbaac9e4d6f7cab76bc0a5461028e494142aad4b4c56e6d05db58ce2433"
+  url "https://github.com/Kaiyou-Digital/portwatch/releases/download/v0.3.0/portwatch-0.3.0-arm64.tar.gz"
+  sha256 "3f63312dc4e3e4c2527adc1cbfc55882fe5bdc3f5d2f9a65e348c5c9dfc43016"
   license "MIT"
 
   depends_on arch: :arm64
