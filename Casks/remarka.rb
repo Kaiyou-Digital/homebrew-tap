@@ -1,6 +1,6 @@
 cask "remarka" do
-  version "0.4.2"
-  sha256 "7b007d15178def26987353de67cc4547045c9860cb7b2f148d0eb16896b5001c"
+  version "0.5.0"
+  sha256 "66ae32eb979525a784c25015e2e6b49a03ad4f848ea3eaaa3ef856848939f623"
 
   url "https://releases.kaiyou.digital/remarka-#{version}.dmg"
   name "Remarka"
